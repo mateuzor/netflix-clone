@@ -1,0 +1,52 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: #fff;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navigationContainer {
+  display: flex;
+}
+
+.menu {
+  margin-left: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.menuItem {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.kids {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.container {
+  background-color: #000000;
+  padding: 30px 50px;
+}
+
+.title {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.imagesContainer {
+  display: flex;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  background: url("https://netflix-clone-p67.vercel.app/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Fw500%2F9Md4CqzUGDtK5oEkRRvozLkGc9d.jpg&w=750&q=75")
+    no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-left: 10px;
+  border-radius: 10px;
+}

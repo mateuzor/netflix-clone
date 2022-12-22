@@ -1,0 +1,65 @@
+.container {
+  height: 90vh;
+  padding: 0px 80px;
+  background: url("https://image.tmdb.org/t/p/original/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.movieCard {
+  width: 500px;
+  margin-top: 200px;
+}
+
+.movieName {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 700px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.buttonsContainer {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+
+.playButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  padding: 5px 15px;
+  background-color: red;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.infoButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  padding: 5px 15px;
+  background-color: #6d6d6e;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.movieDescription {
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 20px;
+  color: #fff;
+}
